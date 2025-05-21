@@ -31,7 +31,7 @@ app.use(helmet({
 
 // CORS config
 app.use(cors({
-  origin: ['https://farmapp.in', 'http://localhost:8000','http://localhost:5173', 'http://localhost:5174'],
+  origin: ['https://farmapp.in', 'http://localhost:8000','http://localhost:5173', 'http://localhost:5174','https://farmin-system.netlify.app'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
